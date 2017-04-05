@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>travel buddy2</title>
+    <style type="text/css">
+        body{
+            margin:0;
+            padding: 0;
+        }
+        #top-bar{
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        #strips{
+            float:left;
+        }
+        #top-bar-empty{
+            padding-left: 48%;
+            float:left;
+            background-color:black;
+            border-right: 1px #CCCCCC solid; 
+            height: 58px;
+        }
+        #item{
+            padding-left: 2px;
+            float:left;
+        }
+        #top-bar-items a{
+            text-decoration: none;
+        }
+        .clear{
+            clear:both;
+        }
+        .topbar_section{
+            float:left;
+
+        }
+        .topbar_menu{
+            color: rgb(254, 203, 0);
+            font-weight: bold;
+            float:left;
+            font-family: cursive;
+            font size:90%;
+            padding:18px 30px 0px 30px;
+            height:40px;
+            }
+        .topbar_menu:hover{
+            font-size: 150%;
+            color: white;
+        }
+        #cover{
+            background:url("photos/taxi1.jpg") no-repeat bottom; 
+            background-size:cover;
+            height: 900px;
+            position: relative;
+            top: -58px;
+            width: 100%;
+            background-attachment:fixed;
+        }
+        h1{
+            color:white;
+            font-family: cursive;
+            text-align: center;
+            position: relative;
+            top:200px;
+        }
+        h2{
+            color:white;
+            font-family: cursive;
+            text-align: center;
+            position: relative;
+            top:200px;
+        }
+        #details{
+            background: #EEEFF1;
+            box-sizing: border-box;
+            width: 70%;
+            height: 600px;
+            margin: 20px auto;
+            padding: 20px 0px;
+            text-align: center;
+        }
+        .f-box{
+            display: inline block;
+            padding: 20px;
+            float: left;
+        }
+        .d-txt{
+            width: 200px;
+            border:2px grey solid;
+            margin-bottom: 70px;
+        }
+        .d-img{
+            margin: 0;
+        }
+        .left{
+            margin-left: 26%;
+        }
+        .right{
+            margin-left: 13%;
+        }
+        #signup-img{
+            width:140px;
+            height:50px;
+            position: relative;
+            top:-15px;
+        }
+        #checklist-img{
+            width:80px;
+            height: 100px;
+            position: relative;
+            top:-50px;
+            left: -50px;
+        }
+        #mail-img{
+            width:280px;
+            height: 200px;
+            padding: 0px;
+            margin: 0px;
+            position: relative;
+            top:-90px;
+            left: -140px;
+        }
+        #group-img{
+            position: relative;
+            top:-15px;
+            right: -45px;
+        }
+    </style>
+    </head>
+    <body>
+          <div id="top-bar">
+            <img id="strips" src="photos/stripes.JPG">
+            <div id="top-bar-empty"></div>
+            <div id="item">
+            <div class="topbar_section topbar_menu" onclick="window.open('DSA_2_login.html')">
+            Login
+            </div>
+            <div class="topbar_section topbar_menu">
+            Home
+            </div>
+            <div class="topbar_section topbar_menu" onclick="window.open('DSA_2_AboutUs.html')">
+            About US
+            </div>
+            <div class="topbar_section topbar_menu" onclick="window.open('DSA_2_Contact.html')">
+            Contact
+            </div>
+            </div>
+        <div class="clear"></div>
+        </div>
+        <div id="cover">
+            <div id="cover-text">
+                <h1>WELCOME TO TRAVEL BUDDY!</h1> 
+                <h2><p>Our aim is to provide you with.</p><p>A budget travel.</p></h2>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="details">
+            <h3>Steps</h3>
+           <div class="d-img f-box left">
+                <form action="DSA_2_signup.html" target="_blank"><input id="signup-img" type="image" src="photos/signup.png"></form>
+            </div>
+            <div class="d-txt f-box right">
+                Sign UP
+            </div>
+            <div class="d-txt f-box left">
+                Plan a New trip
+            </div>
+            <div class="d-img f-box right">
+                <form action="BBC-news.html" target="_blank"><input id="checklist-img" type="image" src="photos/checklist.png"></form>
+            </div>
+            <div class="clear"></div>
+            <div class="d-img f-box left">
+                <form action="BBC-news.html" target="_blank"><input id="group-img" type="image" src="photos/users.png"></form>
+            </div>
+            <div class="d-txt f-box right">
+                Check fellow travellers.
+            </div>
+            <div class="clear"></div>
+            <div class="d-txt f-box left">
+                Send a request.
+            </div>
+            <div class="d-img f-box right">
+                <form action="BBC-news.html" target="_blank"><input id="mail-img" type="image" src="photos/request.png"></form>
+            </div>
+        </div>
+    </body>
+</html>

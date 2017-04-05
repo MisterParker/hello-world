@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>travel buddy2</title>
+    <style type="text/css">
+        body{
+            margin:0;
+            border: 0;
+            padding: 0;
+            background: #F2F2F2;
+        }
+        #top-bar{
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        #strips{
+            float:left;
+        }
+        #top-bar-empty{
+            padding-left: 48%;
+            float:left;
+            background-color:black;
+            border-right: 1px #CCCCCC solid; 
+            height: 58px;
+        }
+        #item{
+            padding-left: 2px;
+            float:left;
+        }
+        #top-bar-items a{
+            text-decoration: none;
+        }
+        .clear{
+            clear:both;
+        }
+        .topbar_section{
+            float:left;
+
+        }
+        .topbar_menu{
+            color: rgb(254, 203, 0);
+            font-weight: bold;
+            float:left;
+            font-family: cursive;
+            font size:90%;
+            padding:18px 30px 0px 30px;
+            height:40px;
+            }
+        .topbar_menu:hover{
+            font-size: 150%;
+            color: white;
+        }
+        #cover{
+            background:url("photos/taxi1.jpg") no-repeat bottom; 
+            background-size:cover;
+            height: 900px;
+            position: relative;
+            top: -58px;
+            width: 100%;
+            background-attachment:fixed;
+        }
+        h1{
+            color:white;
+            font-family: cursive;
+            text-align: center;
+            position: relative;
+            top:200px;
+        }
+        h2{
+            color:white;
+            font-family: cursive;
+            text-align: center;
+            position: relative;
+            top:200px;
+        }
+        .patch{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 500px;
+        }
+        .patch_1{
+            background: #11202C;
+            position: relative;
+            top:-75px;
+        }
+        .patch_2{
+            background: #142A35;
+            background: linear-gradient(to bottom,#11202C, #142A35, #013C33);
+            position: relative;
+            top:-95px;
+        }
+        #aboutUS-purpose{
+            padding: 55px 95px 0px 95px;
+            color: white;
+            font-family:cursive"Helvetica Neue",Arial,sans-serif;
+            font-size: 150%;
+        }
+        #ring-img{
+            height: 400px;
+            width: 400px;
+            border: 0px;
+            position: relative;
+            right: -950px;
+            top: 35px;
+        }
+        .patch_3{
+            background: #562F72;
+            background: linear-gradient(to bottom, #013C33, #562F72);
+            position: relative;
+            top:-98px;
+        }
+        #circle-img{
+            height: 600px;
+            position: relative;
+            top: 70px;
+            right: -800px;
+        }
+    </style>
+    </head>
+    <body>
+          <div id="top-bar">
+            <img id="strips" src="photos/stripes.JPG">
+            <div id="top-bar-empty"></div>
+            <div id="item">
+            <div class="topbar_section topbar_menu" onclick="window.open('DSA_2_login.html')">
+            Login
+            </div>
+            <div class="topbar_section topbar_menu">
+            Home
+            </div>
+            <div class="topbar_section topbar_menu" onclick="window.open('DSA_2_AboutUs.html')">
+            About US
+            </div>
+            <div class="topbar_section topbar_menu" onclick="window.open('DSA_2_Contact.html')">
+            Contact
+            </div>
+            </div>
+        <div class="clear"></div>
+        </div>
+        <div id="cover">
+            <div id="cover-text">
+                <h1>WELCOME TO TRAVEL BUDDY!</h1> 
+                <h2><p>Our aim is to provide you with.</p><p>A budget travel.</p></h2>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class=" patch_1 patch">
+            <blockquote><h1>Brace Yourself Travel Buddy is here!</h1></blockquote>
+            <img id="ring-img" src="photos/ring.png">
+        </div>
+        <div class="patch_2 patch">
+            <p id="aboutUS-purpose"> Our purpose is to get everyone a cheaper alternative for travelling, and providing them with a companion. We will be back with some more context as of now i dont want to waste my time on this, i would rather lie down and think anout things.</p>
+        </div>
+        <div class="patch_3 patch">
+            <img id="circle-img" src="photos/watson-avatar-web_only-largecrop-purplemagenta.svg">
+        </div>
+    </body>
+</html>
